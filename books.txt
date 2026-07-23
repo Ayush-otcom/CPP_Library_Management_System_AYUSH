@@ -1,0 +1,1 @@
+B101|123|C++|Author|Cat|Pub|2023|2|2|A1|Available|500.00|0
