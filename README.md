@@ -44,12 +44,18 @@ If you are running this locally on the specific MacBook setup, copy and paste th
 cd "/Users/ayush/Desktop/cipher project/LibraryManagementSystem" && g++ -std=c++17 main.cpp Book.cpp Member.cpp Library.cpp Utility.cpp -o library_system && ./library_system
 ```
 
-**For General Users:**
-First, open your terminal and navigate to the project folder, then run the compile command:
+**For General Users (Mac / Linux):**
+First, open your terminal and navigate to the downloaded project folder, then run:
 ```bash
-cd "LibraryManagementSystem"
 g++ -std=c++17 main.cpp Book.cpp Member.cpp Library.cpp Utility.cpp -o library_system
 ./library_system
+```
+
+**For General Users (Windows):**
+First, open Command Prompt or PowerShell and navigate to the downloaded project folder, then run:
+```cmd
+g++ -std=c++17 main.cpp Book.cpp Member.cpp Library.cpp Utility.cpp -o library_system
+library_system.exe
 ```
 
 ## Screenshots Placeholder
