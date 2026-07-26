@@ -58,9 +58,60 @@ g++ -std=c++17 main.cpp Book.cpp Member.cpp Library.cpp Utility.cpp -o library_s
 library_system.exe
 ```
 
-## Screenshots Placeholder
-*(Add your screenshots here demonstrating the menu, adding a book, and calculating a fine)*
+## Console Previews
 
+### 1. Adding a New Book
+```text
+=============================
+  Library Management System  
+=============================
+Enter your choice: 1
+
+--- Add New Book ---
+Enter Book ID: B909
+Enter ISBN: 1234
+Enter Title: Cpp programming
+Enter Author: Ayush
+Enter Category: Computer science
+Enter Publisher: techpress
+Enter Year: 2024
+Enter Total Copies: 5
+Enter Price: 800
+Enter Shelf Number: CS-1
+Book added successfully!
+```
+
+### 2. Registering a Member
+```text
+=============================
+  Library Management System  
+=============================
+Enter your choice: 6
+
+Enter Member ID: M101
+Enter Name: Patel
+Enter Email: ayush12@gmail.com
+Enter Phone (10 digits): 3456734567
+Enter Address: Jankipuram
+Enter Membership Type (Student/Faculty/Public): Student
+Registered!
+```
+
+### 3. Viewing Member Details & Fines
+```text
+=============================
+  Library Management System  
+=============================
+Enter your choice: 9
+
+---------------------------------------
+Member ID: M101 | Name: Patel
+Email: ayush12@gmail.com | Phone: 3456734567
+Address: Jankipuram
+Membership: Student | Join Date: 2026-07-26
+Fine Due: Rs 0.00
+---------------------------------------
+```
 ## Future Scope
 - Transition from text files to a relational database (e.g., SQLite).
 - Implement a Graphical User Interface (GUI) using Qt or wxWidgets.
