@@ -38,8 +38,9 @@ This is a comprehensive, production-grade Library Management System implemented 
 
 ## How to Compile
 Make sure you have a C++17 compliant compiler (like `g++`).
-Run the following command in your terminal:
+First, open your terminal and navigate to the project folder, then run the compile command:
 ```bash
+cd "LibraryManagementSystem"
 g++ -std=c++17 *.cpp -o library_system
 ```
 
