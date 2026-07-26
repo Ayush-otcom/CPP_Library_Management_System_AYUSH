@@ -41,7 +41,7 @@ Make sure you have a C++17 compliant compiler (like `g++`).
 First, open your terminal and navigate to the project folder, then run the compile command:
 ```bash
 cd "LibraryManagementSystem"
-g++ -std=c++17 *.cpp -o library_system
+g++ -std=c++17 main.cpp Book.cpp Member.cpp Library.cpp Utility.cpp -o library_system
 ```
 
 ## How to Run
