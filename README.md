@@ -36,17 +36,19 @@ This is a comprehensive, production-grade Library Management System implemented 
 - `std::find`, `std::find_if`: Used from `<algorithm>` for searching through collections efficiently.
 - `std::sort`: Used for sorting book records based on custom lambda comparators.
 
-## How to Compile
-Make sure you have a C++17 compliant compiler (like `g++`).
+## How to Compile & Run
+
+**For Ayush's Mac (Direct Copy-Paste):**
+If you are running this locally on the specific MacBook setup, copy and paste this single line to compile and run:
+```bash
+cd "/Users/ayush/Desktop/cipher project/LibraryManagementSystem" && g++ -std=c++17 main.cpp Book.cpp Member.cpp Library.cpp Utility.cpp -o library_system && ./library_system
+```
+
+**For General Users:**
 First, open your terminal and navigate to the project folder, then run the compile command:
 ```bash
 cd "LibraryManagementSystem"
 g++ -std=c++17 main.cpp Book.cpp Member.cpp Library.cpp Utility.cpp -o library_system
-```
-
-## How to Run
-After compiling, run the generated executable:
-```bash
 ./library_system
 ```
 
